@@ -1,0 +1,48 @@
+{
+  "name": "passport-bitauth",
+  "version": "1.0.2",
+  "description": "BitAuth authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "bitcoin",
+    "bitauth",
+    "auth",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bitpay/passport-bitauth.git"
+  },
+  "bugs": {
+    "url": "http://github.com/bitpay/passport-bitauth/issues"
+  },
+  "author": {
+    "name": "Eric Martindale",
+    "email": "eric@ericmartindale.com",
+    "url": "http://www.ericmartindale.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "raw-body": "~1.2.2",
+    "bitauth": "~0.1.1",
+    "passport-strategy": "~1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
