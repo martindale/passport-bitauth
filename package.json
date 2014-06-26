@@ -37,7 +37,8 @@
   "devDependencies": {
     "mocha": "1.x.x",
     "chai": "1.x.x",
-    "chai-passport-strategy": "0.1.x"
+    "chai-passport-strategy": "0.1.x",
+    "request": "~2.36.0"
   },
   "engines": {
     "node": ">= 0.10.0"
